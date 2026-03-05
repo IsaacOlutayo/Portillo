@@ -1,0 +1,20 @@
+Starting project at C:\Users\razak\OneDrive\Documents\Project\food-delivery\merged-app
+PluginError: Unable to resolve a valid config plugin for react-native-maps.
+• No "app.plugin.js" file found in react-native-maps: config plugins are typically exported from an "app.plugin.js" file in the package root.
+• main export of react-native-maps does not appear to be a config plugin: the following error was thrown when importing C:\Users\razak\OneDrive\Documents\Project\food-delivery\merged-app\node_modules\react-native-maps\lib\index.js: Unexpected token '<' 
+Verify that react-native-maps includes a config plugin. If it does not, then remove the entry from plugins in your app config file. Learn more: https://docs.expo.dev/guides/config-plugins/
+C:\Users\razak\OneDrive\Documents\Project\food-delivery\merged-app\node_modules\react-native-maps\lib\MapView.js:347
+        return (<decorateMapComponent_1.ProviderContext.Provider value={this.props.provider}>
+                ^
+
+SyntaxError: Unexpected token '<'
+    at wrapSafe (node:internal/modules/cjs/loader:1692:18)
+    at Module._compile (node:internal/modules/cjs/loader:1735:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\razak\OneDrive\Documents\Project\food-delivery\merged-app\node_modules\react-native-maps\lib\index.js:33:32)
