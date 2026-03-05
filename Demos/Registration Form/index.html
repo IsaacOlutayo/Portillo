@@ -1,0 +1,47 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input id="name" name="name" type="text" placeholder="Name Obviously" required /></label>
+        </fieldset>
+      <fieldset>
+        <label id="email-label">Email<input id="email" name="email" type="email" placeholder="Email Obviously" required /></label>
+      </fieldset>
+      <fieldset>
+        <label id="number-label">Number <input id="number" name="number" type="number" min="18" max="100" placeholder="Number If You Want" /></label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <select id="dropdown">
+            <option value="1"></option>
+            <option value="2"></option>
+          </select>
+        </label>
+      </fieldset>
+       <fieldset>
+        <legend>You Have to Select Some Options Chief</legend>
+        <label><input type="radio" name="group" class="inline" value="1" checked 
+        /></label>
+        <label><input type="radio" name="group" class="inline" value="2" /></label>
+      </fieldset>
+      <fieldset>
+        <label><input type="checkbox" name="checkbox" value="1"/></label>
+        <label><input type="checkbox" name="checkbox" value="2"/></label>
+      </fieldset>
+      <fieldset>
+         <label>Additional Comment:
+          <textarea id="additional-comment" name="bio" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+    </body>
+</html>
